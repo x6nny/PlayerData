@@ -1,6 +1,9 @@
 # PlayerData
 A simple to use ProfileStore wrapper!
 
+>[!NOTE]
+>README is not finished. Will add more documentation.
+
 # Example usage:
 ```lua
 local Players = game:GetService('Players')
