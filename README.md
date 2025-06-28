@@ -35,6 +35,7 @@ ROBLOXProfile:MessageHandler(function(data_to_add)
 	for key, addition in pairs(data_to_add) do
 		ROBLOXProfile.Data[key] += addition
 	end
+        return true --> must return a boolean
 end)
 
 Store:MessageAsync('1', {['Level'] = 1})
